@@ -4,6 +4,7 @@
   "name": "Pivotal Tracker Enhancements",
   "description": "Adds some extra functionality to the Tracker UI",
   "version": "1.0",
+  "update_url": "https://raw.github.com/rtlong/pivotal_tracker_enhancements.crx/master/updates.xml",
 
   "content_scripts": [
     {
