@@ -33,6 +33,6 @@
       '''
 
 $(document).keypress (evt) =>
-  if !evt.target.type.match(/text(area)?/) and evt.which is 108 # 'l'
+  if !evt.target?.type?.match(/text(area)?/) and evt.which is 108 # 'l'
     @toggleLabels()
 
